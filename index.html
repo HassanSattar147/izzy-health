@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Izzy Health</title>
+  </head>
+  <body class="container">
+    <nav class="nav">
+      <img src="img/Logo.png" alt="Logo" class="nav__logo" />
+      <ul class="nav__list menu-list">
+        <li class="item">Home</li>
+        <li class="item">Product</li>
+        <li class="item">Pricing</li>
+        <li class="item">Health Professionals</li>
+      </ul>
+
+      <div class="nav__btns-cotaniner">
+        <button class="login-btn btn">Login</button>
+        <button class="outline-btn btn">Get Started</button>
+      </div>
+    </nav>
+    <header class="header col-2-grid">
+      <div class="header__left-side left-side">
+        <h1 id="primary-heading" class="heading-1 heading-1--white mb-xl">
+          Personalized health for you and your family from anywhere
+        </h1>
+        <div class="header__input">
+          <input
+            type="text"
+            class="input-email"
+            placeholder="Your email address"
+          />
+          <div class="fill-btn input-btn tranform-left-50per">Subscribe</div>
+        </div>
+      </div>
+
+      <div class="header__right-side right-side">
+        <div class="contact-option">
+          <div class="contact-icon">
+            <div class="contact-icon-style contact-icon-style-1">
+              <img
+                src="img/icon-video.png"
+                class="contact-icon-01"
+                alt="icon 01"
+              />
+            </div>
+          </div>
+          <h4 class="heading-4 heading-4--white mt-md">Video Message</h4>
+        </div>
+        <div class="contact-option">
+          <div class="contact-icon">
+            <div class="contact-icon-style contact-icon-style-2">
+              <img
+                src="img/icon-voice.png"
+                class="contact-icon-02"
+                alt="icon 02"
+              />
+            </div>
+          </div>
+          <h4 class="heading-4 heading-4--white mt-md">Voice Note</h4>
+        </div>
+        <div class="contact-option">
+          <div class="contact-icon">
+            <div class="contact-icon-style contact-icon-style-3">
+              <img
+                src="img/icon-prescription.png"
+                class="contact-icon-03"
+                alt="icon 03"
+              />
+            </div>
+          </div>
+          <h4 class="heading-4 heading-4--white mt-md">Prescription Message</h4>
+        </div>
+      </div>
+
+      <div class="dr-chat-img">
+        <img src="img/doctor-chat.png" alt="Chat Img" />
+      </div>
+    </header>
+
+    <section class="services col-2-grid">
+      <div class="services__left left-side">
+        <h2 class="heading-2 heading-2--dark">Medical Care Team</h2>
+        <div class="services__title">Primary Health Care</div>
+        <div class="services__text">
+          Contact our Doctor for the first time
+          <span class="free-text">Free</span>
+          <button class="fill-btn services-btn">Let's Start</button>
+        </div>
+        <p class="paragraph services__paragraph">
+          Lets compare our service pricing with a few countries we serve
+        </p>
+      </div>
+
+      <div class="services__right right-side">
+        <div class="services-type">
+          <div class="services-type__icon services-type__icon-1">
+            <img
+              src="img/physician.png"
+              alt="physician"
+              class="services-icon"
+            />
+          </div>
+          <h4 class="heading-4 heading-4--dark mt-md">Physician</h4>
+        </div>
+        <div class="services-type">
+          <div class="services-type__icon services-type__icon-2">
+            <img
+              src="img/psychologist.png"
+              alt="psychologist"
+              class="services-icon"
+            />
+          </div>
+          <h4 class="heading-4 heading-4--dark mt-md">Psychologist</h4>
+        </div>
+        <div class="services-type">
+          <div class="services-type__icon services-type__icon-3">
+            <img
+              src="img/nutritionist.png"
+              alt="nutritionist"
+              class="services-icon"
+            />
+          </div>
+          <h4 class="heading-4 heading-4--dark mt-md">Nutritionist</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="countries-prices col-2-grid">
+      <div class="countries-left-side left-side">
+        <div class="country-container">
+          <img
+            src="img/nigeria.png"
+            alt="Nigeria flag"
+            class="country-container__img"
+          />
+          <span class="country-container__name">Nigeria</span>
+        </div>
+        <div class="country-container">
+          <img
+            src="img/india.png"
+            alt="India flag"
+            class="country-container__img"
+          />
+          <span class="country-container__name">India</span>
+        </div>
+        <div class="country-container">
+          <img
+            src="img/mexcio.png"
+            alt="Maxico flag"
+            class="country-container__img"
+          />
+          <span class="country-container__name country-container__name--active"
+            >Maxico</span
+          >
+        </div>
+        <div class="country-container">
+          <img
+            src="img/costa-rica.png"
+            alt="Costa Rica flag"
+            class="country-container__img"
+          />
+          <span class="country-container__name">Costa Rica</span>
+        </div>
+        <div class="country-container">
+          <img
+            src="img/colombia.png"
+            alt="Colombia flag"
+            class="country-container__img"
+          />
+          <span class="country-container__name">Colombia</span>
+        </div>
+        <div class="country-container">
+          <img
+            src="img/dominican-reoublic.png"
+            alt="Dominican Reoublic flag"
+            class="country-container__img"
+          />
+          <span class="country-container__name">Dominican Reoublic</span>
+        </div>
+      </div>
+      <div class="prices-right-side right-side">
+        <div class="price-card">
+          <h4 class="price-card__heading">Pricing</h4>
+          <p class="price-card__subscription">
+            Our Subscription <span>$10</span> cost vs 1 time average appointment
+            cost in countries
+          </p>
+          <div class="price-card__average-price-container">
+            <div class="price-card__average-price-container-inner">
+              <h5 class="price-card__average-price-heading">Average Price</h5>
+              <p class="price-card__average-price-text">
+                National average price for a cear team per visit
+              </p>
+            </div>
+            <div class="price-card__price"><span>$</span>85</div>
+          </div>
+
+          <div class="price-card__services">
+            <div class="price-card__service">
+              <div class="price-card__service-type">Physician</div>
+              <div class="price-card__service-price"><span>$</span>45</div>
+            </div>
+            <div class="price-card__service">
+              <div class="price-card__service-type">Psychologist</div>
+              <div class="price-card__service-price"><span>$</span>16</div>
+            </div>
+            <div class="price-card__service">
+              <div class="price-card__service-type">Nutritionist</div>
+              <div class="price-card__service-price"><span>$</span>24</div>
+            </div>
+          </div>
+          <button class="fill-btn card-btn">Get Started</button>
+        </div>
+      </div>
+    </section>
+    <section class="disease-types col-2-grid">
+      <div class="disease-types__left left-side">
+        <h2 class="heading-2 heading-2--dark">
+          What we have to combat in today’s world
+        </h2>
+        <div class="disease-types__left-paragraph">
+          We help you manage and protect you today and tomorrow.Protecting
+          yourself and family is key. We inspire to bring the lowest cost in
+          medical care. The next phase is low cost medicine for all our
+          subscribers.
+        </div>
+        <button class="fill-btn disease-types__btn">Get Started</button>
+      </div>
+      <div class="disease-types__right right-side">
+        <div class="disease-box disease-box-1">Cronic deseases</div>
+        <div class="disease-box disease-box-2">Heart diseases</div>
+        <div class="disease-box disease-box-3">Pollution relataed sickness</div>
+        <div class="disease-box disease-box-4">
+          Global warming potential health risk
+        </div>
+      </div>
+    </section>
+
+    <section class="details col-2-grid">
+      <div class="details__left left">
+        <img
+          src="img/history_chat.svg"
+          alt="Doctor Chat"
+          class="details__left-chat-img"
+        />
+      </div>
+      <div class="details__right right">
+        <h2 class="heading-2 heading-2--dark">You don’t need to</h2>
+        <ul class="details__right-list">
+          <li class="details__right-list-item">
+            <span class="list-style-1">&nbsp;</span>
+            <div class="item-text">Schedule an appointment</div>
+          </li>
+          <li class="details__right-list-item">
+            <span class="list-style-2">&nbsp;</span>
+            <div class="item-text">Give up a day of work</div>
+          </li>
+          <li class="details__right-list-item">
+            <span class="list-style-3">&nbsp;</span>
+            <div class="item-text">
+              Ask for medical records. Your records say with you at all times
+            </div>
+          </li>
+          <li class="details__right-list-item">
+            <span class="list-style-4">&nbsp;</span>
+            <div class="item-text">
+              Continue to see new doctors. Your care team is with you longterm
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="doctors-info">
+      <h2 class="heading-2 heading-2--dark">Our higligted doctors</h2>
+      <div class="doctor-profile-container">
+        <div class="doctor-profile">
+          <img
+            class="doctor-profile__img"
+            src="img/images-2 1.png"
+            alt="profile picture"
+          />
+          <div class="doctor-profile__name">Harsha Kakkeir</div>
+          <div class="doctor-profile__title">MBBS M.D. (MEDICINE)</div>
+          <div class="socials">
+            <a class="socials__links socials__links-fb" href=""
+              ><img
+                class="socials__icon"
+                src="img/001-facebook-logo 1.svg"
+                alt="Facebook icon"
+            /></a>
+            <a class="socials__links socials__links-yt" href=""
+              ><img
+                class="socials__icon"
+                src="img/002-youtube 1.svg"
+                alt="Youtube icon"
+            /></a>
+            <a class="socials__links socials__links-tw" href=""
+              ><img
+                class="socials__icon"
+                src="img/004-twitter 1.svg"
+                alt="Twitter icon"
+            /></a>
+            <a class="socials__links socials__links-ld" href=""
+              ><img
+                class="socials__icon"
+                src="img/003-linkedin 1.svg"
+                alt="Linkedin icon"
+            /></a>
+          </div>
+        </div>
+        <div class="doctor-profile">
+          <img
+            class="doctor-profile__img"
+            src="img/images-2 1-1.png"
+            alt="profile picture"
+          />
+          <div class="doctor-profile__name">Harsha Kakkeir</div>
+          <div class="doctor-profile__title">MBBS M.D. (MEDICINE)</div>
+          <div class="socials">
+            <a class="socials__links socials__links-fb" href=""
+              ><img
+                class="socials__icon"
+                src="img/001-facebook-logo 1.svg"
+                alt="Facebook icon"
+            /></a>
+            <a class="socials__links socials__links-yt" href=""
+              ><img
+                class="socials__icon"
+                src="img/002-youtube 1.svg"
+                alt="Youtube icon"
+            /></a>
+            <a class="socials__links socials__links-tw" href=""
+              ><img
+                class="socials__icon"
+                src="img/004-twitter 1.svg"
+                alt="Twitter icon"
+            /></a>
+            <a class="socials__links socials__links-ld" href=""
+              ><img
+                class="socials__icon"
+                src="img/003-linkedin 1.svg"
+                alt="Linkedin icon"
+            /></a>
+          </div>
+        </div>
+        <div class="doctor-profile">
+          <img
+            class="doctor-profile__img"
+            src="img/images-2 1-2.png"
+            alt="profile picture"
+          />
+          <div class="doctor-profile__name">Harsha Kakkeir</div>
+          <div class="doctor-profile__title">MBBS M.D. (MEDICINE)</div>
+          <div class="socials">
+            <a class="socials__links socials__links-fb" href=""
+              ><img
+                class="socials__icon"
+                src="img/001-facebook-logo 1.svg"
+                alt="Facebook icon"
+            /></a>
+            <a class="socials__links socials__links-yt" href=""
+              ><img
+                class="socials__icon"
+                src="img/002-youtube 1.svg"
+                alt="Youtube icon"
+            /></a>
+            <a class="socials__links socials__links-tw" href=""
+              ><img
+                class="socials__icon"
+                src="img/004-twitter 1.svg"
+                alt="Twitter icon"
+            /></a>
+            <a class="socials__links socials__links-ld" href=""
+              ><img
+                class="socials__icon"
+                src="img/003-linkedin 1.svg"
+                alt="Linkedin icon"
+            /></a>
+          </div>
+        </div>
+        <div class="doctor-profile">
+          <img
+            class="doctor-profile__img"
+            src="img/images-2 1-3.png"
+            alt="profile picture"
+          />
+          <div class="doctor-profile__name">Harsha Kakkeir</div>
+          <div class="doctor-profile__title">MBBS M.D. (MEDICINE)</div>
+          <div class="socials">
+            <a class="socials__links socials__links-fb" href=""
+              ><img
+                class="socials__icon"
+                src="img/001-facebook-logo 1.svg"
+                alt="Facebook icon"
+            /></a>
+            <a class="socials__links socials__links-yt" href=""
+              ><img
+                class="socials__icon"
+                src="img/002-youtube 1.svg"
+                alt="Youtube icon"
+            /></a>
+            <a class="socials__links socials__links-tw" href=""
+              ><img
+                class="socials__icon"
+                src="img/004-twitter 1.svg"
+                alt="Twitter icon"
+            /></a>
+            <a class="socials__links socials__links-ld" href=""
+              ><img
+                class="socials__icon"
+                src="img/003-linkedin 1.svg"
+                alt="Linkedin icon"
+            /></a>
+          </div>
+        </div>
+        <div class="doctor-profile">
+          <img
+            class="doctor-profile__img"
+            src="img/images-2 1-4.png"
+            alt="profile picture"
+          />
+          <div class="doctor-profile__name">Harsha Kakkeir</div>
+          <div class="doctor-profile__title">MBBS M.D. (MEDICINE)</div>
+          <div class="socials">
+            <a class="socials__links socials__links-fb" href=""
+              ><img
+                class="socials__icon"
+                src="img/001-facebook-logo 1.svg"
+                alt="Facebook icon"
+            /></a>
+            <a class="socials__links socials__links-yt" href=""
+              ><img
+                class="socials__icon"
+                src="img/002-youtube 1.svg"
+                alt="Youtube icon"
+            /></a>
+            <a class="socials__links socials__links-tw" href=""
+              ><img
+                class="socials__icon"
+                src="img/004-twitter 1.svg"
+                alt="Twitter icon"
+            /></a>
+            <a class="socials__links socials__links-ld" href=""
+              ><img
+                class="socials__icon"
+                src="img/003-linkedin 1.svg"
+                alt="Linkedin icon"
+            /></a>
+          </div>
+        </div>
+        <div class="doctor-profile">
+          <img
+            class="doctor-profile__img"
+            src="img/images-2 1-5.png"
+            alt="profile picture"
+          />
+          <div class="doctor-profile__name">Harsha Kakkeir</div>
+          <div class="doctor-profile__title">MBBS M.D. (MEDICINE)</div>
+          <div class="socials">
+            <a class="socials__links socials__links-fb" href=""
+              ><img
+                class="socials__icon"
+                src="img/001-facebook-logo 1.svg"
+                alt="Facebook icon"
+            /></a>
+            <a class="socials__links socials__links-yt" href=""
+              ><img
+                class="socials__icon"
+                src="img/002-youtube 1.svg"
+                alt="Youtube icon"
+            /></a>
+            <a class="socials__links socials__links-tw" href=""
+              ><img
+                class="socials__icon"
+                src="img/004-twitter 1.svg"
+                alt="Twitter icon"
+            /></a>
+            <a class="socials__links socials__links-ld" href=""
+              ><img
+                class="socials__icon"
+                src="img/003-linkedin 1.svg"
+                alt="Linkedin icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__content">
+        <img src="img/logotype.png" alt="Logo" class="footer__logo" />
+        <ul class="footer__list menu-list">
+          <li class="item">Home</li>
+          <li class="item">Product</li>
+          <li class="item">Pricing</li>
+          <li class="item">About us</li>
+          <li class="item">Contact us</li>
+        </ul>
+
+        <div class="footer__socials-cotaniner">
+          <div class="socials">
+            <a class="socials__links socials__links-fb" href=""
+              ><img
+                class="socials__icon"
+                src="img/001-facebook-logo 1.svg"
+                alt="Facebook icon"
+            /></a>
+            <a class="socials__links socials__links-yt" href=""
+              ><img
+                class="socials__icon"
+                src="img/002-youtube 1.svg"
+                alt="Youtube icon"
+            /></a>
+            <a class="socials__links socials__links-tw" href=""
+              ><img
+                class="socials__icon"
+                src="img/004-twitter 1.svg"
+                alt="Twitter icon"
+            /></a>
+            <a class="socials__links socials__links-ld" href=""
+              ><img
+                class="socials__icon"
+                src="img/003-linkedin 1.svg"
+                alt="Linkedin icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="izzyAI-logo"><img src="img/izzuAi.png" alt="izzyAi" /></div>
+        <div class="copyright-info">
+          <p class="copyright">&copy; lezzyhealth2019. All rights reserved.</p>
+          <p class="terms-policy">
+            <span>Terms and Conditions</span>
+            <span>Privacy policy</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
